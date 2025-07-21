@@ -1,8 +1,11 @@
 import { Component } from '@angular/core';
+import { Header } from './header/header';
+import { Banner } from "./banner/banner";
+
 
 @Component({
   selector: 'app-root',
-  imports: [],
+  imports: [Header, Banner],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
